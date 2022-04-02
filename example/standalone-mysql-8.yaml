@@ -12,8 +12,8 @@ services:
       - "8848:8848"
       - "9848:9848"
       - "9555:9555"
-    depends_on:
-      - mysql
+#    depends_on:
+#      - mysql
     restart: always
 #  mysql:
 #    container_name: mysql
